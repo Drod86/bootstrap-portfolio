@@ -1,24 +1,23 @@
-
 .card-1 {
-    background-image: url(Images/Work/Desktop/c1.png);
-    background-size: cover;
+  background-image: url(Images/Work/Desktop/c1.png);
+  background-size: cover;
 }
 
 .card-2 {
-    background-image: url(Images/Work/Desktop/Healthcare-bk.png);
-    background-size: cover;
+  background-image: url(Images/Work/Desktop/Healthcare-bk.png);
+  background-size: cover;
 }
 
 .card-3 {
-    background-image: url(Images/Work/Desktop/WebPortfolio-bg.png);
-    background-size: cover;
+  background-image: url(Images/Work/Desktop/WebPortfolio-bg.png);
+  background-size: cover;
 }
 
 .card-4 {
-    background-image: url(Images/Work/Work-bg-1.png);
-    background-size: cover;
+  background-image: url(Images/Work/Work-bg-1.png);
+  background-size: cover;
 }
 
 .card {
-    min-height: 43.5rem;
+  min-height: 43.5rem;
 }
