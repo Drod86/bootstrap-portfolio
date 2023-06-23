@@ -20,7 +20,45 @@
   </head>
   <body>
     <!-- HEADER NAV -->
-    <div class="container-fluid p-5 pt-0 pb-0 bg-secondary fixed-top">
+    <nav
+      class="navbar navbar-expand-md navbar-light bg-secondary fixed-top"
+      id="navbar-scrollable"
+    >
+      <div class="container fs-4">
+        <a href="#" class="navbar-brand fw-bold text-white">My Logo</a>
+        <button
+          class="navbar-toggler border-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto p-3 text-white">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+            <a
+              class="nav-link text-white"
+              href="mailto: daniel.r.rodriguez86@gmail.com"
+            >
+              <img height="20" src="./Images/Main/Msg-Icon.png" alt="email" />
+            </a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- <div class="container-fluid p-5 pt-0 pb-0 bg-secondary fixed-top">
       <ul id="toggle-nav" class="navbar navbar-light m-5 mt-0 mb-0 fs-4">
         <a class="navbar-brand text-white h1 fs-2" href="#">My Logo</a>
         <nav class="nav">
@@ -35,7 +73,7 @@
           </a>
         </nav>
       </ul>
-    </div>
+    </div> -->
     <!-- MAIN -->
     <main
       class="bg-dark min-vh-100 d-flex justify-content-between align-items-center"
@@ -349,10 +387,10 @@
         <div class="border d-flex w-75 px-5 m-md-5"></div>
         <!-- Row 2 -->
         <div class="row text-white pt-5 mt-5 pb-5 mb-5">
-          <div class="col d-flex flex-column align-items-center">
+          <div class="col-md-3 col-sm-12 d-flex flex-column align-items-center">
             <div class="d-flex gap-2">
               <img src="Images/rhombus.svg" alt="" />
-              <h3 class="fw-bold">Languaje</h3>
+              <h3 class="fw-bold">Language</h3>
             </div>
             <ul class="list-unstyled d-flex flex-column gap-3 fs-6">
               <li>JavaScript</li>
@@ -361,7 +399,7 @@
               <li>CSS</li>
             </ul>
           </div>
-          <div class="col d-flex flex-column align-items-center">
+          <div class="col-md-3 col-sm-12 d-flex flex-column align-items-center">
             <div class="d-flex gap-2">
               <img src="Images/Rectangle 56.svg" alt="" />
               <h3 class="fw-bold">Frameworks</h3>
@@ -374,7 +412,7 @@
               <li>Selenium</li>
             </ul>
           </div>
-          <div class="col d-flex flex-column align-items-center">
+          <div class="col-md-3 col-sm-12 d-flex flex-column align-items-center">
             <div class="d-flex justify-content-start gap-2">
               <img src="Images/Circle.svg" alt="" />
               <h3 class="fw-bold">Skills</h3>
